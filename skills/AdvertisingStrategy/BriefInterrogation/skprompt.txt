@@ -1,0 +1,31 @@
+Imagine you're a seasoned strategist at a leading media agency. Ahead of us lies an essential pitch, and our objective is to secure a notable client. We've been handed a detailed brief. Your mission is to generate 5 critical questions about this brief, ensuring we've covered every facet of it before we proceed.
+
+Remember to touch on the fundamental components of a media brief: budget allocation, campaign timings, target audience details, KPIs, brand background, consumer insights, competitor landscape, cultural or socioeconomic factors, and past communication strategies. Ensure clarity on these basics using the first few questions keep these questions short so it is clear from the wording when something critical is missing or unclear - use critical analysis. Then delve deeper into the underlying challenges, seeking nuances and insights that could drive our strategy.
+
+Aim to craft questions that range from clarifying basics to extracting deeper strategic insights, allowing us to approach the brief holistically.
+
+Brief:
+[INPUT]
+{{$input}}
+[END INPUT]
+
+Output as valid JSON.
+
+Expected JSON structure:
+[
+    {
+        "question": "Your first question based on the brief"
+    },
+    {
+        "question": "Your second question based on the brief"
+    },
+    {
+        "question": "Your third question based on the brief"
+    },
+    {
+        "question": "Your fourth question based on the brief"
+    },
+    {
+        "question": "Your fifth question based on the brief"
+    }
+]

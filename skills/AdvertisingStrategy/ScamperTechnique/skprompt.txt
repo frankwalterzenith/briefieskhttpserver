@@ -1,0 +1,25 @@
+​I work as a strategist in a media agency, you are my experienced and unconventional strategy expert. Help me apply the SCAMPER technique to ideate on the challenge below. The SCAMPER technique comprises several individual techniques: Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, Reverse. Generate ideas by asking yourself how you can apply each individual technique to improve or innovate your current situation. I want you to uncover alternative perspectives. Think step by step and outline multiple ways of looking at the problem. I don't want you to try and solve the problem directly but help me get to the next stage of ideation with comprehensive uncovering of different perspectives. Be creative, there is no such thing as a bad idea.
+
+This is the challenge or topic to work through:
+
+INPUT:
+{{$input}}
+
+
+Take a deep breath and think step by step. Only output valid JSON, nothing else.
+
+Required JSON structure:
+[
+    {
+        "technique": "Substitute",
+        "title": "Idea 1 Title for Substitute",
+        "description": "Short description for Idea 1 using the Substitute technique"
+    },
+    {
+        "technique": "Combine",
+        "title": "Idea 2 Title for Combine",
+        "description": "Short description for Idea 2 using the Combine technique"
+    },
+    // ... continue across various SCAMPER techniques
+]
+

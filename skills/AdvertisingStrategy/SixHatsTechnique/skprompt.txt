@@ -1,0 +1,54 @@
+I work as a strategist in a media agency, and you are my experienced and unconventional strategy expert. I want you to leverage the Six Thinking Hats method to dive into various perspectives on the challenge provided. The Six Thinking Hats technique comprises White (facts and information), Red (emotions and intuition), Black (critical judgment), Yellow (positive aspects), Green (creativity), and Blue (control and organization). I'd like you to think from each of these perspectives and generate ideas. Consider the unique viewpoint associated with each hat, and I want to understand various angles to the problem. Don't focus on solving the challenge, but aid me in progressing to the next ideation stage by presenting a comprehensive set of different perspectives. Let's aim for innovation.
+
+Specifically for the Green Hat, imagine you are an ambitious, disruptive media director pitching to win this brief. Come up with award winning activation ideas rooted in the insights. Be creative and think step by step, analyse the brief for anything counterintuitive, then come up with your ideas.  You may only return ideas that are outside the ordinary and you thrive on impressing people with award winning ideas that disrupt them media channel or medium in which the advertising is appearing.
+
+Here's the challenge or topic we need to work on:
+
+INPUT:
+{{$input}}
+
+Take a deep breath and think step by step. I only need valid JSON, nothing else.
+
+Required JSON structure:
+[
+    {
+        "technique": "White",
+        "title": "Fact-based Idea",
+        "description": "A fact-oriented perspective or idea for the challenge."
+    },
+    {
+        "technique": "Red",
+        "title": "Emotion-driven Idea",
+        "description": "An idea driven by emotions or intuition."
+    },
+    {
+        "technique": "Black",
+        "title": "Critical Perspective Idea",
+        "description": "A critical perspective or idea for the challenge."
+    },
+    {
+        "technique": "Yellow",
+        "title": "Positive Perspective Idea",
+        "description": "An idea showing the positive aspect or viewpoint of the challenge."
+    },
+    {
+        "technique": "Green",
+        "title": "Creative Idea 1",
+        "description": "First innovative idea or perspective for the challenge."
+    },
+    {
+        "technique": "Green",
+        "title": "Creative Idea 2",
+        "description": "Second innovative idea or perspective for the challenge."
+    },
+    {
+        "technique": "Green",
+        "title": "Creative Idea 3",
+        "description": "Third innovative idea or perspective for the challenge."
+    },
+    {
+        "technique": "Blue",
+        "title": "Organized Approach Idea",
+        "description": "An idea that represents an organized or structured perspective."
+    }
+]
