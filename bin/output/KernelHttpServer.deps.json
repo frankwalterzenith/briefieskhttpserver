@@ -1,11 +1,11 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v6.0",
+    "name": ".NETCoreApp,Version=v7.0",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v6.0": {
+    ".NETCoreApp,Version=v7.0": {
       "KernelHttpServer/1.0.0": {
         "dependencies": {
           "Microsoft.Azure.Functions.Worker": "1.19.0",
@@ -125,7 +125,7 @@
           "Microsoft.Extensions.Logging.Abstractions": "6.0.4"
         },
         "runtime": {
-          "lib/net6.0/Grpc.Net.Client.dll": {
+          "lib/net7.0/Grpc.Net.Client.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.55.0.0"
           }
@@ -137,7 +137,7 @@
           "Microsoft.Extensions.Http": "3.0.3"
         },
         "runtime": {
-          "lib/net6.0/Grpc.Net.ClientFactory.dll": {
+          "lib/net7.0/Grpc.Net.ClientFactory.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.55.0.0"
           }
@@ -148,7 +148,7 @@
           "Grpc.Core.Api": "2.55.0"
         },
         "runtime": {
-          "lib/net6.0/Grpc.Net.Common.dll": {
+          "lib/net7.0/Grpc.Net.Common.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.55.0.0"
           }
@@ -163,7 +163,7 @@
           "Microsoft.Extensions.Hosting.Abstractions": "5.0.0"
         },
         "runtime": {
-          "lib/net6.0/Microsoft.Azure.Functions.Worker.dll": {
+          "lib/net7.0/Microsoft.Azure.Functions.Worker.dll": {
             "assemblyVersion": "1.19.0.0",
             "fileVersion": "1.19.0.0"
           }
@@ -216,7 +216,7 @@
           "Microsoft.Extensions.Hosting.Abstractions": "5.0.0"
         },
         "runtime": {
-          "lib/net6.0/Microsoft.Azure.Functions.Worker.Grpc.dll": {
+          "lib/net7.0/Microsoft.Azure.Functions.Worker.Grpc.dll": {
             "assemblyVersion": "1.14.0.0",
             "fileVersion": "1.14.0.0"
           }
@@ -934,17 +934,7 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Diagnostics.DiagnosticSource/7.0.2": {
-        "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
-        },
-        "runtime": {
-          "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.423.11508"
-          }
-        }
-      },
+      "System.Diagnostics.DiagnosticSource/7.0.2": {},
       "System.Diagnostics.EventLog/5.0.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
@@ -1142,7 +1132,6 @@
           "Microsoft.NETCore.Targets": "1.1.0"
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "System.Runtime.Extensions/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
@@ -1330,35 +1319,10 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Text.Encodings.Web/7.0.0": {
-        "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
-        },
-        "runtime": {
-          "lib/net6.0/System.Text.Encodings.Web.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll": {
-            "rid": "browser",
-            "assetType": "runtime",
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
-          }
-        }
-      },
+      "System.Text.Encodings.Web/7.0.0": {},
       "System.Text.Json/7.0.1": {
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
           "System.Text.Encodings.Web": "7.0.0"
-        },
-        "runtime": {
-          "lib/net6.0/System.Text.Json.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.122.56804"
-          }
         }
       },
       "System.Threading/4.3.0": {
@@ -2215,13 +2179,6 @@
       "sha512": "sha512-JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
       "path": "system.runtime/4.3.0",
       "hashPath": "system.runtime.4.3.0.nupkg.sha512"
-    },
-    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
-      "path": "system.runtime.compilerservices.unsafe/6.0.0",
-      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
     },
     "System.Runtime.Extensions/4.3.0": {
       "type": "package",
